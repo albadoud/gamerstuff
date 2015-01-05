@@ -1,0 +1,85 @@
+/* Votre Style */
+body{
+    /*background: url('http://blog.gamerstuff.fr/wp-content/themes/yaaburnee-themes/lib/img/patterns/diagonal-noise.png') repeat;*/
+}
+
+/*** Header ***/
+    #top-navigation{
+        border-bottom: 1px dotted #919191;
+    }
+        #top-navigation nav{
+            margin: 0 auto;
+            max-width: 1300px;
+        }
+        #top-navigation a{
+            border-right:1px dotted #919191;
+            color:#919191;
+            margin: 10px 0;
+            padding:0 10px;
+            text-decoration: none;
+        }
+        #top-navigation a:hover{
+            color:#333;
+            text-decoration: underline;
+        }
+
+    #logo{
+        background:#fff;
+        margin:0 auto;
+        max-width:1300px;
+        padding:20px 10px;
+    }
+        #logo .logo{
+            min-width: 300px;
+        }
+
+    #navigation{
+        background:#000;
+    }
+        #navigation nav{
+            margin: 0 auto;
+            max-width: 1300px;
+            position: relative;
+        }
+        #navigation a{
+            color:#fff;
+            display: inline-block;
+            font-size: 1.8rem;
+            padding:10px 20px;
+            text-decoration: none;
+        }
+        #navigation a:hover{
+            background:#333;
+        }
+
+    #search{
+        background: #dedede;
+        border:none;
+        border-radius: 3px;
+        cursor:pointer;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        width: 90px;
+    }
+    #search:focus{
+        background: #fff;
+        cursor:auto;
+        width: 50%;
+    }
+
+/*** Homepage ***/
+#last-article{
+
+}
+    #last-article a{
+        border:1px solid #dedede;
+        display: block;
+        padding:5px;
+    }
+        #last-article a img{
+            background: #333;
+        }
